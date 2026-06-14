@@ -41,7 +41,6 @@ A simple architecture diagram is below:
 
 ---
 
-
 ## 🧩 Architecture Decision Records (ADRs)
 
 ADRs help document *why* certain choices were made.
@@ -55,6 +54,23 @@ Examples included:
 All ADRs are stored in:
 
 👉 [ADR](docs/adr/README.md)
+
+---
+
+## 🧭 Alignment with the AWS Well‑Architected Framework
+
+This project intentionally follows beginner‑level principles of the AWS Well‑Architected Framework.
+
+Even though the architecture is simple, it reflects good habits across all six pillars:
+
+- **Operational Excellence** — clear documentation, ADRs, structured folder organization
+- **Security** — least‑privilege with bucket policies and controlled S3 access
+- **Reliability** — S3 provides built‑in durability and high availability
+- **Performance Efficiency** — static content served directly from S3 with no compute overhead
+- **Cost Optimization** — pay‑as‑you‑go storage with minimal operational cost
+- **Sustainability** — serverless, low‑energy architecture using fully managed AWS services
+
+This alignment helps build strong architectural thinking early, even in small learning projects.
 
 ---
 
