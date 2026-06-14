@@ -5,6 +5,17 @@ It is written for beginners and focuses on clarity, safety, and real-world AWS p
 
 ---
 
+## 🧰 Prerequisites
+
+Before deploying this architecture, you need:
+
+- An **AWS account**  
+- A **new S3 bucket**  
+- Website files (stored in a separate repo)  
+- Basic familiarity with the AWS Console  
+
+---
+
 ## ✅ Step 1: Create Your S3 Bucket
 
 1. Log in to the AWS Management Console.
